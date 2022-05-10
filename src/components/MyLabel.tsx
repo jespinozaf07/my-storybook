@@ -25,6 +25,11 @@ export interface MyLabelProps {
    * Font-Color label
    */
   fontColor?: string;
+
+  /**
+   * Background Color label
+   */
+  backgroundColor?: string;
 }
 
 export const MyLabel = ({
@@ -33,11 +38,12 @@ export const MyLabel = ({
   allCaps,
   color,
   fontColor,
+  backgroundColor,
 }: MyLabelProps) => {
   return (
     <span
       className={`label ${size} text-${color}`}
-      style={{ color: fontColor }}
+      style={{ color: fontColor, backgroundColor: backgroundColor }}
     >
       {allCaps ? label.toUpperCase() : label}
     </span>

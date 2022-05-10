@@ -8,6 +8,7 @@ export default {
     size: { control: 'select', options: ['normal', 'h1', 'h2', 'h3'] },
     color: { control: 'select', options: ['primary', 'secondary', 'tertiary'] },
     fontColor: { control: 'color' },
+    backgroundColor: { control: 'color' },
   },
 } as ComponentMeta<typeof MyLabel>;
 
@@ -54,4 +55,14 @@ Custom.args = {
   allCaps: false,
   color: 'tertiary',
   fontColor: '#FF5733',
+};
+
+export const CustomBackgroundColor = Template.bind({});
+CustomBackgroundColor.args = {
+  size: 'normal',
+  label: 'Hello word!',
+  allCaps: false,
+  color: 'tertiary',
+  fontColor: '#FF5733',
+  backgroundColor: '#bcad27',
 };
