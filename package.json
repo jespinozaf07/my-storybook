@@ -4,7 +4,7 @@
   "private": false,
   "license": "MIT",
   "typings": "dist/index.d.ts",
-  "homepage": "https://github.com/jespinozaf07",
+  "homepage": "https://github.com/jespinozaf07/my-storybook",
   "main": "dist/index.js",
   "repository": {
     "url": "https://github.com/jespinozaf07/my-storybook",
