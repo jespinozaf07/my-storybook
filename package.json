@@ -7,13 +7,13 @@
   "homepage": "https://github.com/jespinozaf07",
   "main": "dist/index.js",
   "repository": {
-    "url": "https://github.com/jespinozaf07",
+    "url": "https://github.com/jespinozaf07/my-storybook",
     "type": "git"
   },
   "release": {
     "branches": [
       "main"
-    ]
+    ] 
   },
   "peerDependencies": {
     "react": ">=16",
